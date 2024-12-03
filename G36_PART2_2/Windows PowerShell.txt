@@ -1,0 +1,17 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\hp> C:\Python312\python.exe "C:\Users\hp\Documents\projects\network\udp_client.py"
+Enter your message to server: leyan burait 1211439
+Server response: leyan burait 1211439 are you recive??
+Enter your message to server: Alaa Moqade 1211910
+Server response:  Alaa Moqade 1211910 are you recive
+Enter your message to server: the project do it by Leyan & Alla
+Server response: client 3 are you recive the project do it by Leyan & Alla
+Enter your message to server: hello Iam client 4 : 1211439
+Server response: welcome client 4 Iam server How I can help you
+Enter your message to server: the time now : 6_69 & date : Agust\15\2024 & the day :thursday
+Server response: welcome client 5 yes totay is  date : Agust\15\2024 & the day :thursday
+Enter your message to server:

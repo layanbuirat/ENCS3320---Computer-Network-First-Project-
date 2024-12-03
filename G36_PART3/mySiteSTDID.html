@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Retrieval</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin: 20px;
+            border: 2px solid #333; /* Border around the entire container */
+            padding: 20px;
+            border-radius: 8px;
+        }
+        form {
+            border: 1px solid #666; /* Border around the form */
+            padding: 10px;
+            border-radius: 4px;
+        }
+        #imageContainer {
+            border: 1px solid #999; /* Border around the image container */
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 4px;
+        }
+        img {
+            max-width: 500px;
+            max-height: 500px;
+            display: block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Image Retrieval</h1>
+        <form action="#" method="get" id="imageForm">
+            <label for="imageName">Enter Image Name:</label>
+            <input type="text" id="imageName" name="imageName" required>
+            <button type="submit">Get Image</button>
+        </form>
+        <div id="imageContainer"></div>
+    </div>
+
+    <script>
+        document.getElementById('imageForm').onsubmit = function(event) {
+            event.preventDefault();
+            let imageName = document.getElementById('imageName').value;
+            let imagePath = `/${imageName}`;
+            let img = document.createElement('img');
+            img.src = imagePath;
+            img.alt = 'Requested Image';
+            let container = document.getElementById('imageContainer');
+            container.innerHTML = ''; // Clear previous image
+            container.appendChild(img);
+        };
+    </script>
+</body>
+</html>

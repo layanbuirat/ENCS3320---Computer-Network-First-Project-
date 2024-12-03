@@ -1,0 +1,15 @@
+Microsoft Windows [Version 10.0.22631.3958]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\hp>C:\Python312\python.exe "C:\Users\hp\Documents\projects\network\udp_server.py"
+Server is listening on port 1439
+Message from Client 1: leyan burait 1211439
+Enter your message to Client 1: leyan burait 1211439 are you recive??
+Message from Client 1: Alaa Moqade 1211910
+Enter your message to Client 1:  Alaa Moqade 1211910 are you recive
+Message from Client 1: the project do it by Leyan & Alla
+Enter your message to Client 1: client 3 are you recive the project do it by Leyan & Alla
+Message from Client 1: hello Iam client 4 : 1211439
+Enter your message to Client 1: welcome client 4 Iam server How I can help you
+Message from Client 1: the time now : 6_69 & date : Agust\15\2024 & the day :thursday
+Enter your message to Client 1: welcome client 5 yes totay is  date : Agust\15\2024 & the day :thursday
